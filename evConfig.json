@@ -11,10 +11,24 @@
   },
   "skipValidations": [
     {
-      "selector": "*",
+      "selector": ".dropdown.line",
+      "urlRegex": ".*demo.evinced.com\/",
+      "validationTypes": [
+        "WRONG_SEMANTIC_ROLE"
+      ]
+    },
+    {
+      "selector": "search-btn",
       "urlRegex": ".*demo.evinced.com\/",
       "validationTypes": [
         "NOT_FOCUSABLE"
+      ]
+    },
+    {
+      "selector": "mdn-docs-logo",
+      "urlRegex": ".*developer.mozilla.org/en-US/docs/Web/CSS/:nth-child#try_it\/",
+      "validationTypes": [
+        "LOW_FOCUS_CONTRAST"
       ]
     }
   ]
