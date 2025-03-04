@@ -11,10 +11,24 @@
   },
   "skipValidations": [
     {
-      "selector": "*",
+      "selector": ".dropdown.line",
+      "urlRegex": ".*demo.evinced.com\/",
+      "validationTypes": [
+        "WRONG_SEMANTIC_ROLE"
+      ]
+    },
+    {
+      "selector": "search-btn",
       "urlRegex": ".*demo.evinced.com\/",
       "validationTypes": [
         "NOT_FOCUSABLE"
+      ]
+    },
+    {
+      "selector": ".dropdown.line",
+      "urlRegex": ".*demo.evinced.com\/",
+      "validationTypes": [
+        "WRONG_SEMANTIC_ROLE"
       ]
     }
   ]
