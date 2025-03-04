@@ -25,10 +25,10 @@
       ]
     },
     {
-      "selector": ".dropdown.line",
-      "urlRegex": ".*demo.evinced.com\/",
+      "selector": "mdn-docs-logo",
+      "urlRegex": ".*developer.mozilla.org/en-US/docs/Web/CSS/:nth-child#try_it\/",
       "validationTypes": [
-        "WRONG_SEMANTIC_ROLE"
+        "LOW_FOCUS_CONTRAST"
       ]
     }
   ]
