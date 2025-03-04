@@ -18,7 +18,7 @@
       ]
     },
     {
-      "selector": "search-btn",
+      "selector": ".search-btn",
       "urlRegex": ".*demo.evinced.com\/",
       "validationTypes": [
         "NOT_FOCUSABLE"
