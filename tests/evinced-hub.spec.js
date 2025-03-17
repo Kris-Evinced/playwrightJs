@@ -12,7 +12,7 @@ test.describe("Evinced evAnalyze", () => {
           });
     await evincedService.evSaveFile(issues, "html", evReport);
     console.log("generated report")
-    await expect(existsSync(evReport)).toBeTruthy();
+    expect(existsSync(evReport)).toBeTruthy();
   });
 });
 

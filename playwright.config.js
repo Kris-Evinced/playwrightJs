@@ -27,7 +27,8 @@ export default defineConfig({
   // Added new reporter ouput folder for `show-report` to avoid cache issue
   
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
-  globalSetup: require.resolve("./global.setup.js"),
+  //globalSetup: require.resolve("./global.setup.js"),
+  globalSetup: './global.setup.js',
 
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */

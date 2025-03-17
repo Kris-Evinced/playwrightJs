@@ -1,9 +1,9 @@
-// global.setup.js
+//global.setup.js
 
-const { setCredentials } = require("@evinced/js-playwright-sdk");
+const { setCredentials } = require("@evinced/js-playwright-sdk")
 
-
-async function globalSetup(config) {
+//removing "config" param from globalSetup
+async function globalSetup() {
     try {
         await setCredentials({
             serviceId: process.env.EVINCED_SERVICE_ID,
@@ -15,3 +15,4 @@ async function globalSetup(config) {
  
 }
 module.exports = globalSetup;
+
